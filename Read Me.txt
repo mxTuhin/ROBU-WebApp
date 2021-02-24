@@ -1,0 +1,23 @@
+1. Upload the Database file to your server
+
+2. In the directory robu/config/dbConfig.php 
+Change the Variables according to your setup
+
+In the directory robu/admin/config/dbConfig.php 
+Change the Variables according to your setup (Same values as number 2)
+
+3. In the directory robu/register/cronJob.php 
+Change the Variables according to your setup (Same values as number 2)
+-Set the cronJob.php to your cron tasks of cpanel to run every one minute.
+(This one is basically to make the registration process faster. When someone registers the mail is sent to him from backend process)
+-Set the SMS algorithm in this code if you want to send sms
+
+4. In the directory robu/register/index.php
+Change the date and month variables value inside the if condition to load the page
+- At the below of that page theres a JavaScript in which you can set date to show Countdown on the page before the time arrives.
+
+** So far thats the guide. 
+Happy Clubbing. Best of Luck.
+
+Regards
+Tuhin Mridha

@@ -1,0 +1,4 @@
+chmod -R 0777 /var/www/html
+chown apache /var/www/html
+
+chown apache:apache assets
